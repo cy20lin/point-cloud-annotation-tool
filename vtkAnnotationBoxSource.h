@@ -12,11 +12,11 @@ public:
 
 protected:
   vtkAnnotationBoxSource();
-  ~vtkAnnotationBoxSource() VTK_OVERRIDE {}
-  int RequestData(vtkInformation *, vtkInformationVector **, vtkInformationVector *) VTK_OVERRIDE;
+  ~vtkAnnotationBoxSource() override {}
+  int RequestData(vtkInformation *, vtkInformationVector **, vtkInformationVector *) override;
 private:
-  vtkAnnotationBoxSource(const vtkAnnotationBoxSource&) VTK_DELETE_FUNCTION;
-  void operator=(const vtkAnnotationBoxSource&) VTK_DELETE_FUNCTION;
+  vtkAnnotationBoxSource(const vtkAnnotationBoxSource&) = delete;
+  void operator=(const vtkAnnotationBoxSource&) = delete;
 };
 
 #endif

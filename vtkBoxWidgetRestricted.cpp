@@ -1,4 +1,5 @@
 #include <vtkBoxWidgetRestricted.h>
+#include <vtkObjectFactory.h>
 
 vtkStandardNewMacro(vtkBoxWidgetRestricted);
 
